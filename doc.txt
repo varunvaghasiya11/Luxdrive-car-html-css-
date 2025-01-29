@@ -1,0 +1,8 @@
+Luxedrive :- https://luxedrive.qodeinteractive.com/
+
+Fonts :- inconsolata,sans sarif
+          epilogue,sans sarif
+          roboto
+          sora,sans sarif
+
+color :- #0C1315 , #141A1C          
