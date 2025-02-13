@@ -327,6 +327,9 @@ li span{
 .bottom-list .underline:hover{
     background-image: linear-gradient(#8B7554,#8B7554);
 }
+header{
+    width: 100%;
+}
 /* banner  */
 .banner .container{
     position:absolute;
