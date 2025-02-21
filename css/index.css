@@ -180,12 +180,12 @@ section{
 .fw-bold{
     font-weight:400;
 }
-
+.d-none{
+    display: none;
+}
 /* Header  */
-header .container{
-    width: 1320px;
-    margin: 0 auto;
-    padding: 0 16px;
+header{
+    background-color: black;
 }
 .contant{
     padding:20px 20px;
@@ -252,7 +252,7 @@ li span{
     max-width: 220px;
     border-radius: 16px;
     top: 10px;
-    left: 200px; 
+    right: 200px; 
     padding: 10px;
     opacity: 0;
     visibility: hidden;
