@@ -44,6 +44,32 @@
     .xs-space-between{
         justify-content: space-between;
     }
+    .menu{
+        top: 100%;
+        left: 0px;
+        background-color: #0C1315;
+        width: 100%;
+        padding: 10px;
+        display: none;
+        text-align: center;
+    }
+    .menu-p{
+        padding: 10px;
+    }
+    .banner .container{
+        top: 250px;
+    }
+    .line{
+        padding: 10px;
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .fs{
+        font-size:36px;
+    }
+    header{
+        padding:10px 0px;
+    }
 }
 @media(min-width:576px){
     .container{
@@ -91,6 +117,32 @@
     .s-space-between{
         justify-content: space-between;
     }
+    .menu{
+        top: 100%;
+        left: 0px;
+        background-color: #0C1315;
+        width: 100%;
+        padding: 10px;
+        display: none;
+        text-align: center;
+    }
+    .menu-p{
+        padding: 10px;
+    }
+    .banner .container{
+        top: 250px;
+    }
+    .line{
+        padding: 10px;
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .fs{
+        font-size:36px;
+    }
+    header{
+        padding:10px 0px;
+    }
 }
 @media(min-width:768px){
     .container{
@@ -137,6 +189,13 @@
     }
     .m-space-between{
         justify-content: space-between;
+    }
+    .d-m-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .line{
+        width: 50%;
     }
 }
 @media(min-width:992px){
@@ -234,6 +293,15 @@
     }
     .xl-space-between{
         justify-content: space-between;
+    }
+    .d-xl-flex{
+        display: flex;
+    }
+    .fs-xl{
+        font-size: 42px;
+    }
+    .banner .container{
+        top: 400px;
     }
 }
 @media(min-width:1400px){

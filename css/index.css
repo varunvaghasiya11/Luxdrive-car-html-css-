@@ -184,9 +184,6 @@ section{
     display: none;
 }
 /* Header  */
-header{
-    background-color: black;
-}
 .contant{
     padding:20px 20px;
     font-family: "Inconsolata", serif;
@@ -333,7 +330,7 @@ header{
 /* banner  */
 .banner .container{
     position:absolute;
-    top: 55%;
+    top: 400px;
 }
 .banner{
     height: 800px;
@@ -349,17 +346,17 @@ header{
     color: rgba(245, 245,245,.7);
 }
 .line{
-    width: 50%;
-    align-self: center;
-    color: rgba(245, 245,245,.7);
-    margin-right: 25px;
-    border-bottom:2px solid white;
+    background-image:linear-gradient(rgba(245, 245,245,.7),rgba(245, 245,245,.7));
+    background-repeat: no-repeat;
+    background-size: 90% 2px ,1px;
+    background-position: left bottom;
+    display: inline-block; 
     padding-bottom: 10px;
     transform: all .5s ease-in;
 }
 
 .line:hover{
-    border-color: #8B7554;
+    background-image: linear-gradient(#8B7554,#8B7554);
 }
 .i{
     height: 50px;
