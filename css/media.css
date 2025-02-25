@@ -429,6 +429,9 @@
     .rent-xl{
         padding-left: 250px;
     }
+    .d-xl-flex{
+        display: flex;
+    }
 }
 @media(min-width:1400px){
     .container{
