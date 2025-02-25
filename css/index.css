@@ -407,6 +407,12 @@ header{
 .rent{
     padding: 0px 100px;
 }
+.rent-pl{
+    padding-left: 238px;
+}
+.rent-p{
+    padding: 42px 0px 56px 16.5%;
+}
 .number{
     font-size: 80px;
 }
