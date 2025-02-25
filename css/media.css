@@ -112,6 +112,9 @@
     .info-xs-pt{
         padding-top: 50px;
     }
+    .dis-xs-p{
+        padding-left: 30px;
+    }
 }
 @media(min-width:576px){
     .container{
